@@ -8,6 +8,10 @@ input.addEventListener('input', () => {
       game.style.display = 'block';
     } else {
       game.style.display = 'none';
-    }
-  });
-});
+let window = window.open('about:blank');
+window.onload = function () {
+let script = document.createElement('script');
+document.body.appendChild(script);
+script.innerText = 'js here';
+
+ '}'
