@@ -15,3 +15,14 @@ document.body.appendChild(script);
 script.innerText = 'js here';
 
  '}'
+  document.addEventListener("DOMContentLoaded", () => {
+    document.title="about:blank";
+  {
+    var link = document.querySelector("link[rel~='icon']");
+    if (!link) {
+        link = document.createElement('link');
+        link.rel = 'icon';
+        document.head.appendChild(link);
+    }
+    link.href = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
+  }
